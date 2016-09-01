@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<h2>Pairings</h2>
+<div ng-repeat="month in pairCtrl.months">
+    <div>
+        <div class="title">{{ month.name }}</div>
+        <div class="subtitle">Strategy: {{ month.strategy }} | Deployment: {{ month.deployment }}</div>
+        <div ng-repeat="round in month.pairings">
+            <div class="round-title">Round {{ round.round }}</div>
+            <div class="round-soulstones">Soulstones: {{ round.soulstones }}</div>
+            <div class="round-rules">Special Rules: {{ round.specialrules }}</div>
+            <div class="round-schemes">Schemes: <span class="scheme" ng-repeat="scheme in round.schemes">{{ scheme }}</span></div>
+            <div class="round-matches">
+                <div class="match-title">Matches</div>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <td>#</td>
+                            <td>Player 1</td>
+                            <td>Player 2</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="game in round.games">
+                            <td>{{ $index + 1 }}</td>
+                            <td>{{ playersCtrl.players[game.p1 - 1].name }}</td>
+                            <td>{{ playersCtrl.players[game.p2 - 1].name }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
