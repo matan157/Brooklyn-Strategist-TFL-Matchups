@@ -1,8 +1,76 @@
+/* Pairings */
+
+body {
+    font-size: 14px;
+    word-break: keep-all;
+    -ms-word-break: keep-all;
+    white-space: nowrap;
+}
+
+.app-container {
+    padding-top: 5em;
+}
+
+.head-bar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+player-roster {
+    position: fixed;
+}
+
 .title {
     font-size: 1.5em;
     font-weight: bold;
 }
 
+.subtitle {
+    color: #666;
+    font-size: 1.2em;
+}
+
+.player {
+    margin: 2em 0;
+}
+
+
+/* Round */
+
+.round {
+    padding: 1em 0;
+}
+
+.round-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 .scheme {
     padding: 0 5px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+
+/* Match */
+
+.round-matches {
+    padding: 1em 0;
+}
+
+.match-title {
+    font-weight: bold;
+    color: #444;
+}
+
+.round-matches table thead {
+    font-weight: bold;
 }
