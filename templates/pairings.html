@@ -4,7 +4,7 @@
     <div>
         <div class="title">{{ month.name }}</div>
         <div class="subtitle">Strategy: {{ month.strategy }} | Deployment: {{ month.deployment }}</div>
-        <div ng-repeat="round in month.pairings">
+        <div class="round" ng-repeat="round in month.pairings">
             <div class="round-title">Round {{ round.round }}</div>
             <div class="round-soulstones">Soulstones: {{ round.soulstones }}</div>
             <div class="round-rules">Special Rules: {{ round.specialrules }}</div>
