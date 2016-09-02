@@ -24,16 +24,20 @@
 
     app.controller('PlayersController', ['PlayerService', function(PlayerService) {
         var self = this;
+        var show = true;
         var getPlayers = PlayerService.getPlayers();
         getPlayers.then(function(response) {
             self.players = response;
         });
 
-        $('#players-show').click(function() {
-            $('#players-caret').toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+        $('#show-hide').click(function() {
+            show = !show;
+            if (show) {
+                $('#show-hide').html('Hide');
+            } else {
+                $('#show-hide').html('Show');
+            }
+            $('#show-hide').blur();
         });
     }]);
-
-
-
 })();

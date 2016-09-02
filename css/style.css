@@ -22,7 +22,14 @@ a#players-show:visited {
     padding-top: 5em;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Bangers', cursive;
+}
+
 .head-bar {
+    font-family: 'Bangers', cursive;
     background-color: #333;
     color: white;
     text-align: center;
@@ -33,7 +40,8 @@ a#players-show:visited {
 }
 
 .title {
-    font-size: 1.5em;
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -48,6 +56,10 @@ a#players-show:visited {
 
 .month {
     padding: 1em 0;
+}
+
+pairings .btn-group {
+    font-family: 'Bangers', cursive;
 }
 
 

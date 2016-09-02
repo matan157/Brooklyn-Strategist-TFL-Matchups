@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 
 <div>
-    <a data-target="#players" role="button" data-toggle="collapse" href="" aria-expanded="false" aria-controls="players" id="players-show" ng-click="changeCaret()">
-        <h2>Participants <span id="players-caret" class="glyphicon glyphicon-chevron-down"></span></h2>
-    </a>
-    <div id="players" class="collapse">
+    <h2>
+        Participants 
+        <button id="show-hide" class="btn btn-dark" type="button" data-toggle="collapse" data-target="#players" aria-expanded="false" aria-controls="players">
+            Hide
+        </button>
+    </h2>
+
+    <div id="players" class="collapse in">
         <div class="player" ng-repeat="player in playersCtrl.players">
             <h4>{{ player.name }} <small>{{player.email}}</small></h4>
         </div>
