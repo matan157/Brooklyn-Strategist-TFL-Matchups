@@ -28,6 +28,10 @@
         getPlayers.then(function(response) {
             self.players = response;
         });
+
+        $('#players-show').click(function() {
+            $('#players-caret').toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+        });
     }]);
 
 

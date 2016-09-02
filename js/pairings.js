@@ -22,9 +22,19 @@
         }
     });
 
-    app.controller('PairingsController', ['PairingsService', function(PairingsService) {
+    app.controller('PairingsController', ['PairingsService', '$scope', function(PairingsService, $scope) {
         var self = this;
         self.months = [];
+        $scope.tab = 1;
+
+        $scope.setTab = function(n) {
+            $scope.tab = n;
+        };
+
+        $scope.isSet = function(n) {
+            return $scope.tab === n;
+        }
+
         var pairings = PairingsService.getPairings();
         pairings.then(
             function success(res) {
@@ -37,6 +47,8 @@
 
             }
         );
+
+
 
     }]);
 })();

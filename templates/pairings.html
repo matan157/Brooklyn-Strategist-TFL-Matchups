@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <h2>Pairings</h2>
-<div ng-repeat="month in pairCtrl.months">
-    <div>
+<div class="btn-group btn-group-lg" role="group">
+    <button type="button" class="btn" ng-click="setTab(1)" ng-class="{'active': isSet(1), 'btn-info': isSet(1), 'btn-default': !isSet(1) }">September</button>
+    <button type="button" class="btn" ng-click="setTab(2)" ng-class="{'active': isSet(2), 'btn-info': isSet(2), 'btn-default': !isSet(2)}">October</button>
+    <button type="button" class="btn" ng-click="setTab(3)" ng-class="{'active': isSet(3), 'btn-info': isSet(3), 'btn-default': !isSet(3)}">November</button>
+</div>
+<div class="month" ng-repeat="month in pairCtrl.months">
+    <div ng-show="tab === {{$index + 1}}">
         <div class="title">{{ month.name }}</div>
         <div class="subtitle">Strategy: {{ month.strategy }} | Deployment: {{ month.deployment }}</div>
         <div class="round" ng-repeat="round in month.pairings">

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <div>
-    <a role="button" data-toggle="collapse" href="#players" aria-expanded="false" aria-controls="players" id="players-show">
-        <h2>Participants <span class="caret"></span></h2>
+    <a data-target="#players" role="button" data-toggle="collapse" href="" aria-expanded="false" aria-controls="players" id="players-show" ng-click="changeCaret()">
+        <h2>Participants <span id="players-caret" class="glyphicon glyphicon-chevron-down"></span></h2>
     </a>
     <div id="players" class="collapse">
         <div class="player" ng-repeat="player in playersCtrl.players">
