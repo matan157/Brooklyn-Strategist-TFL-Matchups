@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<div>
+<div class="hidden-md hidden-lg">
     <h2>
         Participants 
         <button id="show-hide" class="btn btn-dark" type="button" data-toggle="collapse" data-target="#players" aria-expanded="false" aria-controls="players">
@@ -9,6 +9,17 @@
     </h2>
 
     <div id="players" class="collapse in">
+        <div class="player" ng-repeat="player in playersCtrl.players">
+            <h4>{{ player.name }} <small>{{player.email}}</small></h4>
+        </div>
+    </div>
+</div>
+<div class="hidden-xs hidden-sm">
+    <h2>
+        Participants 
+    </h2>
+
+    <div id="players-lg">
         <div class="player" ng-repeat="player in playersCtrl.players">
             <h4>{{ player.name }} <small>{{player.email}}</small></h4>
         </div>
