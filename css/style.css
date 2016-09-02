@@ -7,6 +7,14 @@ body {
     white-space: nowrap;
 }
 
+a#players-show,
+a#players-show:hover,
+a#players-show:active,
+a#players-show:visited {
+    color: black;
+    text-decoration: none;
+}
+
 .app-container {
     padding-top: 5em;
 }
@@ -80,5 +88,8 @@ body {
 @media (max-width: 798px) {
     player-roster {
         position: relative;
+    }
+    .head-bar {
+        font-size: 2em;
     }
 }
