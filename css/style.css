@@ -21,10 +21,6 @@ body {
     width: 100%;
 }
 
-player-roster {
-    position: fixed;
-}
-
 .title {
     font-size: 1.5em;
     font-weight: bold;
@@ -73,4 +69,16 @@ player-roster {
 
 .round-matches table thead {
     font-weight: bold;
+}
+
+@media (min-width: 799px) {
+    player-roster {
+        position: fixed;
+    }
+}
+
+@media (max-width: 798px) {
+    player-roster {
+        position: relative;
+    }
 }
