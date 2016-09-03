@@ -37,7 +37,7 @@
             } else {
                 $('#show-hide').html('Show');
             }
-            $('#show-hide').blur();
+            $('#show-hide').trigger('blur');
         });
     }]);
 })();
