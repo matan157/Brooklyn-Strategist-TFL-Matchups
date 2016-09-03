@@ -47,16 +47,19 @@
                 }
             }
             ngDialog.open({ template: 'templates/scheme-modal.html', className: 'ngdialog-theme-plain', scope: $scope });
+            $('button').blur();
         };
 
         $scope.openStrat = function(strat) {
             $scope.strat = strat;
             ngDialog.open({ template: 'templates/strat-modal.html', className: 'ngdialog-theme-plain', scope: $scope });
+            $('button').blur();
         };
 
         $scope.openDeploy = function(deploy) {
             $scope.deploy = deploy;
             ngDialog.open({ template: 'templates/deploy-modal.html', className: 'ngdialog-theme-plain', scope: $scope });
+            $('button').blur();
         };
 
         $scope.tab = 1;
