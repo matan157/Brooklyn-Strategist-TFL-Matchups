@@ -15,14 +15,14 @@
     ],
     "months": [{
         "name": "September",
-        "strategy": "Guard the Stash",
+        "strategy": 4,
         "deployment": "Corner",
         "pairings": [{
             "round": 1,
             "soulstones": 35,
             "specialrules": "Limited to a crew box",
             "schemes": [
-                "A Quick Murder", "Neutralize the Leader", "Set up", "Hunting Party", "Show of Force"
+                12, 3, 7, 15, 17
             ],
             "games": [
                 { "p1": 10, "p2": 11, "win": "" },
@@ -37,7 +37,7 @@
             "soulstones": 50,
             "specialrules": "None",
             "schemes": [
-                "Take Prisoner", "Marked for Death", "Occupy Their Turf", "Show of Force", "Leave Your Mark"
+                19, 9, 13, 17, 16
             ],
             "games": [
                 { "p1": 3, "p2": 5, "win": "" },
@@ -52,7 +52,7 @@
             "soulstones": 50,
             "specialrules": "None",
             "schemes": [
-                "Exhaust Their Forces", "Search the Ruins", "Occupy Their Turf", "Inspection", "Leave Your Mark"
+                14, 8, 13, 11, 16
             ],
             "games": [
                 { "p1": 9, "p2": 12, "win": "" },

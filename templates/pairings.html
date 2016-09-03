@@ -8,12 +8,18 @@
 <div class="month" ng-repeat="month in pairCtrl.months">
     <div ng-show="tab === {{$index + 1}}">
         <div class="title">{{ month.name }}</div>
-        <div class="subtitle">Strategy: {{ month.strategy }} | Deployment: {{ month.deployment }}</div>
+        <div class="subtitle">
+            Strategy: <button class="btn btn-dark btn-lg" ng-click="openStrat(strategies[(month.strategy - 1)])">{{ strategies[(month.strategy - 1)].name }}</button>
+        </div>
+        <div class="subtitle">
+            Deployment: <button class="btn btn-dark btn-lg" ng-click="openDeploy(month.deployment)">{{ month.deployment }}</button>
+        </div>
         <div class="round" ng-repeat="round in month.pairings">
             <div class="round-title">Round {{ round.round }}</div>
             <div class="round-soulstones">Soulstones: {{ round.soulstones }}</div>
             <div class="round-rules">Special Rules: {{ round.specialrules }}</div>
-            <div class="round-schemes">Schemes: <span class="scheme" ng-repeat="scheme in round.schemes">{{ scheme }}</span></div>
+            <div class="round-schemes">Schemes: <span class="scheme popup" ng-repeat="scheme in round.schemes"><span ng-click="openScheme(scheme)">{{ schemes[(scheme - 1)].name }}</span></span>
+            </div>
             <div class="round-matches">
                 <div class="match-title">Matches</div>
                 <table class="table table-hover">

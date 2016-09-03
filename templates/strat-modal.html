@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<div class="dialog-contents">
+    <h1>{{ strat.name }} ({{ strat.suit }})</h1>
+    <h3>Set Up</h3>
+    <p>{{ strat.setup }}</p>
+    <h3>Special Rules</h3>
+    <p ng-repeat="rule in strat.specialrules">{{ rule }}</p>
+    <h3>Victory Points</h3>
+    <p>{{ strat.victorypoints}}</p>
+</div>

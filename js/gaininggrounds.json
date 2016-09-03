@@ -1,0 +1,115 @@
+{
+    "schemes": [{
+        "id": 1,
+        "name": "Covert Breakthrough",
+        "text": ["This Scheme may not start revealed.", "At the end of the game, this Crew earns 1 VP for each of its Scheme Markers within 6\" of the enemy Deployment Zone."]
+    }, {
+        "id": 2,
+        "name": "Undercover Entourage",
+        "text": ["This Scheme may not start revealed.", "When you choose this Scheme, note down one of this Crew’s Master or Henchman models. At the end of the game, if the chosen model is in the opponent’s half of the table, this Crew earns 1 VP.", "If the chosen model is in the enemy Deployment Zone at the end of the game, this Crew earns 1 additional VP.", "If the chosen model is in the opponent’s half of the table at the end of the game and has half or more of its Wounds remaining, this Crew earns 1 additional VP."]
+    }, {
+        "id": 3,
+        "name": "Neutralize the Leader",
+        "text": ["This Scheme may not start revealed. Reveal this Scheme once this Crew has scored any VP from it.", "The first time the enemy Leader is reduced below half of their starting Wounds, gain 1 VP.", "The first time the enemy Leader leaves play, score 2 VP."]
+    }, {
+        "id": 4,
+        "name": "Catch and Release",
+        "text": ["This Scheme may not start revealed.", "All non-Peon models in this Crew may target a non-Peon enemy model within 1\" with a (1) Interact Action to give the target the following Condition for the rest of the game:", "<b>Tagged:</b> This model gains the following Action: \"(2) Rip It Out: Remove this Condition from this model. This Action may not be taken while this model is engaged.\" No other Action or Ability can remove this Condition.", "The first time an enemy model gains the <b>Tagged</b> Condition, reveal this Scheme. At the end of every Turn, this Crew earns 1 VP if at least two enemy models in play have the <b>Tagged</b> Condition."]
+    }, {
+        "id": 5,
+        "name": "Frame For Murder",
+        "text": ["This Scheme may not start revealed. Reveal this Scheme once this Crew has scored any VP from it.", "When you choose this Scheme, note one of this Crew’s non-Peon models as the \"sucker.\" If the chosen \"sucker\" model is killed or sacrificed by an enemy model, score 1 VP.", "If the enemy model was a Master or Henchman, score 1 additional VP.", "If this Scheme was accomplished on or before Turn 3, score 1 additional VP."]
+    }, {
+        "id": 6,
+        "name": "Detonate the Charges",
+        "text": ["This Scheme may not start revealed.", "Once per game, at the end of any Turn, this Crew may reveal this Scheme and earn 1 VP for each enemy model that is within 3\" of at least one of this Crew’s Scheme Markers. Then, remove all of this Crew’s Scheme Markers which are within 3\" of an enemy model.", "If only one Scheme Marker is removed in this way, this Crew can only score a maximum of 2 VP from this Scheme."]
+    }, {
+        "id": 7,
+        "name": "Set Up",
+        "text": ["This Scheme may not start revealed.", "When you choose this Scheme, note down an enemy Master, Henchman, or Enforcer model.", "Once per game, at the end of any Turn, this Crew may reveal this Scheme to score a number of VP equal to the number of this Crew’s Scheme Markers within 4\" of the noted model. Then remove all of this Crew’s Scheme Markers within 4\" of the noted model."]
+    }, {
+        "id": 8,
+        "name": "Search the Ruins",
+        "text": ["This Scheme may not start revealed.", "At the end of the game, this Crew earns 2 VP if it has 3 or more Scheme Markers within 6\" of the Center of the board.", "If at least two of those Scheme Markers are on the opponent’s half of the table, earn 1 additional VP.", "Scheme Markers which are within 2\" of one or more other friendly Scheme Markers do not count towards this Scheme."]
+    }, {
+        "id": 9,
+        "name": "Mark For Death",
+        "text": ["This Scheme may not start revealed.", "All non-Peon models in this Crew may target a non-Peon enemy model they are engaged with with a (1) Interact Action to give the target the following Condition for the rest of the game:", "\"<b>Marked:</b> This condition may not be removed or ended.\"", "Reveal this Scheme once an enemy model gains the <b>Marked</b> condition. When an enemy model with the <b>Marked</b> Condition is reduced to 0 Wounds or leaves play, gain 1 VP."]
+    }, {
+        "id": 10,
+        "name": "Public Demonstration",
+        "text": ["This Scheme may not start revealed.", "When you choose this Scheme, secretly note down up to three Minion models in this Crew with a combined Soulstone Cost of at least 15.", "Once per game, at the end of any Turn, this Crew may reveal this Scheme to score 1 VP for each of the noted models within 4\" and LoS of an enemy Master, Henchman, or Enforcer."]
+    }, {
+        "id": 11,
+        "name": "Inspection",
+        "text": ["This Scheme may not start revealed. Reveal this Scheme once this Crew has scored any VP from it.", "At the end of every Turn after the first, this Crew scores 1 VP if it has at least one non-Peon model within 4\" of where each end of the Centerline of the board meets the board edge (or corner)."]
+    }, {
+        "id": 12,
+        "name": "A Quick Murder",
+        "text": ["This Scheme may not start revealed. Reveal this Scheme once this Crew has scored any VP from it.", "When you choose this Scheme, note down the enemy model with the highest Soulstone Cost. If multiple models are tied for the highest Soulstone Cost, then choose one of those models and note it down.", "This Crew earns 2 VP if the noted enemy model is killed or sacrificed before the end of the game.", "If the noted enemy model is killed or sacrificed on or before Turn 3, earn 1 additional VP."]
+    }, {
+        "id": 13,
+        "name": "Occupy Their Turf",
+        "text": ["This Scheme may not start revealed.", "Once per game, at the end of any Turn, this Crew may reveal this Scheme to score a number of VP equal to the number of this Crew’s Minion models on the enemy half of the board which are not within 10\" of the Centerline."]
+    }, {
+        "id": 14,
+        "name": "Exhaust Their Forces",
+        "text": ["This Scheme may not start revealed.", "All non-Peon models in this Crew may target a non-Peon enemy model within 1\" with an Interact Action. If the target has already Activated this Turn, the Interact Action is a (2) Action, if it has not Activated, it is a (1) Action. Give the target of the Interact Action the following Condition for the rest of the game:", "<b>Exhausted:</b> This model gains the following Action:\n\"<b>(1) Shake It Off:</b> Remove the Exhausted Condition from this model. This Action may not be taken while this model is engaged.\"No other Action or Ability can remove this Condition.", "The first time an enemy model gains the <b>Exhausted</b> Condition, reveal this Scheme. At the end of every Turn after the first, this Crew may end the <b>Exhausted</b> Condition on one enemy model in play to gain 1 VP. "]
+    }, {
+        "id": 15,
+        "name": "Hunting Party",
+        "text": ["This Scheme may not start revealed. Reveal this Scheme once this Crew has scored any VP from it.", "At the end of every Turn after the first, score 1 VP if at least one enemy Minion or Peon model was killed by one of this Crew’s Enforcer or Henchmen models.", "At the end of every Turn after the first, if the enemy Crew has no Minion or Peon models in play, score 1 VP. No more than 1 VP per Turn may be scored from this Scheme."]
+    }, {
+        "id": 16,
+        "name": "Leave Your Mark",
+        "text": ["This Scheme may not start revealed. Reveal this Scheme once this Crew has scored any VP from it.", "At the end of every Turn after the first, this Crew may remove one of its Scheme Markers which is on the opponent’s half of the board, not within 6\" of the of the Centerline, and not within 4\" of a non-Peon enemy model to score 1 VP."]
+    }, {
+        "id": 17,
+        "name": "Show of Force",
+        "text": ["This Scheme may not start revealed. Reveal this Scheme once this Crew has scored any VP from it.", "At the end of every Turn after the first, count the number of face-up Upgrades with a printed cost greater than 0 attached to each non-Master model within 6\" of the center of the board for each Crew. Upgrades which began the game attached to a Master do not count toward this total.", "If this Crew has at least one qualifying Upgrade and has a number of qualifying Upgrades equal to or exceeding the opposing Crew’s number of qualifying Upgrades, this crew scores 1VP."]
+    }, {
+        "id": 18,
+        "name": "Convict Labor",
+        "text": ["This Scheme may not start revealed. Reveal this Scheme once this Crew has scored any VP from it.\nAt the end of every Turn after the first, if this Crew has at least three Scheme Markers within 2\" of the Centerline of the board which do not have an enemy model or another friendly Scheme Marker within 2\" of them, this Crew scores 1 VP.\nThese Scheme Markers may still be used to score VP from other Schemes during Turns in which they were not used to score VP for Convict Labor (but they may not be used to Score VP from both Convict Labor and a different Scheme during a single Turn)."]
+    }, {
+        "id": 19,
+        "name": "Take Prisoner",
+        "text": ["This Scheme may not start revealed.\nWhen you choose this Scheme, note down an enemy model. At the end of the game, if this Crew has at least one non-Peon model engaged with the noted enemy model, this Crew earns 2 VP.\nIf this Crew has at least one non-Peon model engaged with the noted enemy model and there are no other enemy models within 3\" of the noted model, this Crew earns 1 additional VP."]
+    }],
+    "strategies": [{
+        "id": 1,
+        "name": "Extraction",
+        "suit": "Ram",
+        "setup": "Place an Informant Marker at the Center of the table.",
+        "specialrules": ["At the end of every Turn after the first, after scoring VP, the player with the most non-Peon models within 6\" of the Informant Marker may place the Marker up to 3\" from its current location, not into terrain or base contact with a model."],
+        "victorypoints": "At the end of each Turn after the first, a Crew earns 1 VP if it has two or more non-Peon models within 6\" of the Informant Marker."
+    }, {
+        "id": 2,
+        "name": "Interference",
+        "suit": "Mask",
+        "setup": "Divide the table into four 18\" by 18\" table Quarters.",
+        "specialrules": ["N/A"],
+        "victorypoints": "At the end of each Turn after the first, a Crew earns 1 VP if it controls two or more table Quarters. To control a table Quarter, the Crew must have the most unengaged non-Peon models within the table Quarter. These models cannot be within 6\" of the Center of the table or partially within another table Quarter."
+    }, {
+        "id": 3,
+        "name": "Headhunter",
+        "suit": "Tome",
+        "setup": "N/A",
+        "specialrules": ["Whenever a model kills or sacrifices a non-Peon model which it considers an enemy, the model which made the kill must place a 30mm Head Marker within 3\" and LoS of the killed or sacrificed model before removing it from play. This Marker may not be placed in base contact with any model; if there is nowhere it can legally be placed, then skip placing a Marker. Any model in base contact with a Head Marker may make a (1) Interact Action with it to remove it from play."],
+        "victorypoints": "At the end of every Turn after the first, a Crew earns 1 VP if it removed at least one Head Marker from play that turn."
+    }, {
+        "id": 4,
+        "name": "Guard the Stash",
+        "suit": "Crow",
+        "setup": "Place two 50mm Stash Markers (Ht5, blocking, impassable, hard cover) on the Centerline each 5\" on either side of the Center of the board (10\" apart from each other).",
+        "specialrules": ["N/A"],
+        "victorypoints": "At the end of each turn after the first, a Crew earns 1 VP if it has at least one non-Peon model within 2\" of each Stash Marker."
+    }, {
+        "id": 5,
+        "name": "Collect the Bounty",
+        "suit": "Jokers",
+        "setup": "N/A",
+        "specialrules": ["Whenever a model is reduced to 0 Wounds by a non-Peon model, the Crew which reduced it to 0 Wounds gains a number of Bounty Points depending on the type of model which was reduced to 0 Wounds, so long as the Crew considered the model an enemy. Models are worth the following number of Bounty Points:", "Peons: 0", "Minions: 1", "Enforcers: 2", "Henchmen: 3", "Masters: 4", "At the end of each Turn, after calculating VP, reset each player to 0 Bounty Points."],
+        "victorypoints": "At the end of every Turn after the first, the player with the most Bounty Points scores 1 VP. Either player may also score 1 VP if the opposing player has no models left in play. No more than 1 VP may be scored from this strategy per Turn. If both players still have models in play and they are tied for Bounty Points, neither will score any VP."
+    }]
+}

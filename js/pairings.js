@@ -1,5 +1,5 @@
 (function() {
-    var app = angular.module('pairingsModule', ['playersModule']);
+    var app = angular.module('pairingsModule', ['playersModule', 'schemesStratsModule', 'ngDialog']);
 
     app.service('PairingsService', function($http) {
         var getPairings = function() {
@@ -22,9 +22,43 @@
         }
     });
 
-    app.controller('PairingsController', ['PairingsService', '$scope', function(PairingsService, $scope) {
+    app.controller('PairingsController', ['PairingsService', '$scope', 'Schemes', 'Strategies', 'ngDialog', function(PairingsService, $scope, Schemes, Strategies, ngDialog) {
         var self = this;
         self.months = [];
+        var schemes = Schemes.schemes();
+        var strategies = Strategies.strategies();
+
+        schemes.then(function(res) {
+            $scope.schemes = res;
+        });
+
+        strategies.then(function(res) {
+            $scope.strategies = res;
+        });
+
+        $scope.showSchemeInfo = function(schemeId) {
+
+        };
+
+        $scope.openScheme = function(schemeId) {
+            for (var i = 0; i < $scope.schemes.length; i++) {
+                if (schemeId === $scope.schemes[i].id) {
+                    $scope.scheme = $scope.schemes[i];
+                }
+            }
+            ngDialog.open({ template: 'templates/scheme-modal.html', className: 'ngdialog-theme-plain', scope: $scope });
+        };
+
+        $scope.openStrat = function(strat) {
+            $scope.strat = strat;
+            ngDialog.open({ template: 'templates/strat-modal.html', className: 'ngdialog-theme-plain', scope: $scope });
+        };
+
+        $scope.openDeploy = function(deploy) {
+            $scope.deploy = deploy;
+            ngDialog.open({ template: 'templates/deploy-modal.html', className: 'ngdialog-theme-plain', scope: $scope });
+        };
+
         $scope.tab = 1;
 
         $scope.setTab = function(n) {
@@ -33,7 +67,7 @@
 
         $scope.isSet = function(n) {
             return $scope.tab === n;
-        }
+        };
 
         var pairings = PairingsService.getPairings();
         pairings.then(
@@ -44,11 +78,8 @@
                 }
             },
             function error(err) {
-
+                console.log(err);
             }
         );
-
-
-
     }]);
 })();
