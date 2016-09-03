@@ -24,7 +24,7 @@
 
     app.controller('PlayersController', ['PlayerService', function(PlayerService) {
         var self = this;
-        var show = true;
+        var show = false;
         var getPlayers = PlayerService.getPlayers();
         getPlayers.then(function(response) {
             self.players = response;

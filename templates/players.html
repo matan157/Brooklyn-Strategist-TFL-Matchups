@@ -4,11 +4,11 @@
     <h2>
         Participants 
         <button id="show-hide" class="btn btn-dark" type="button" data-toggle="collapse" data-target="#players" aria-expanded="false" aria-controls="players">
-            Hide
+            Show
         </button>
     </h2>
 
-    <div id="players" class="collapse in">
+    <div id="players" class="collapse">
         <div class="player" ng-repeat="player in playersCtrl.players">
             <h4>{{ player.name }} <small>{{player.email}}</small></h4>
         </div>
