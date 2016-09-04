@@ -32,11 +32,23 @@ h3 {
     font-family: 'Bangers', cursive;
     background-color: #333;
     color: white;
-    text-align: center;
     font-size: 4em;
     position: fixed;
     z-index: 99;
     width: 100%;
+}
+
+.head-bar .header {
+    display: block;
+    float: left;
+    margin-left: 20%;
+}
+
+.head-bar span {
+    display: block;
+    float: right;
+    margin-right: 20%;
+    cursor: pointer;
 }
 
 .title {
