@@ -131,4 +131,11 @@ pairings .btn-group {
     .head-bar {
         font-size: 2em;
     }
+    .head-bar .header {
+        margin-left: 10%;
+    }
+    .head-bar span {
+        margin-right: 10%;
+        cursor: pointer;
+    }
 }
