@@ -132,10 +132,10 @@ pairings .btn-group {
         font-size: 2em;
     }
     .head-bar .header {
-        margin-left: 0;
+        margin-left: 5px;
     }
     .head-bar span {
-        margin-right: 0;
+        margin-right: 5px;
         cursor: pointer;
     }
 }
