@@ -22,6 +22,10 @@ a#players-show:visited {
     padding-top: 5em;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 h1,
 h2,
 h3 {
@@ -77,6 +81,10 @@ h3 {
 
 pairings .btn-group {
     font-family: 'Bangers', cursive;
+}
+
+.center {
+    text-align: center;
 }
 
 

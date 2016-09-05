@@ -28,13 +28,17 @@
                             <td>#</td>
                             <td>Player 1</td>
                             <td>Player 2</td>
+                            <td>P1 Score</td>
+                            <td>P2 Score</td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr ng-repeat="game in round.games">
                             <td>{{ $index + 1 }}</td>
-                            <td>{{ playersCtrl.players[game.p1 - 1].name }}</td>
-                            <td>{{ playersCtrl.players[game.p2 - 1].name }}</td>
+                            <td ng-class="{ 'bold': game.scoreP1 > game.scoreP2}">{{ playersCtrl.players[game.p1 - 1].name }}</td>
+                            <td ng-class="{ 'bold': game.scoreP1 < game.scoreP2}">{{ playersCtrl.players[game.p2 - 1].name }}</td>
+                            <td class="center">{{ game.scoreP1 }}</td>
+                            <td class="center">{{ game.scoreP2 }}</td>
                         </tr>
                     </tbody>
                 </table>
