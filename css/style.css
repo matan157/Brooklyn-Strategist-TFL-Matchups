@@ -108,6 +108,7 @@ pairings .btn-group {
     display: inline-block;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
