@@ -14,54 +14,106 @@
         { "name": "Rory Dolan", "email": "Rorymdolan@gmail.com", "id": 12, "wins": 0 }
     ],
     "months": [{
-        "name": "September - One Master To Rule Them All",
-        "strategy": 4,
-        "deployment": "Corner",
-        "pairings": [{
-            "round": 1,
-            "soulstones": 35,
-            "specialrules": "Limited to a crew box",
-            "schemes": [
-                12, 3, 7, 15, 17
-            ],
-            "games": [
-                { "p1": 10, "p2": 11, "scoreP1": "", "scoreP2": "" },
-                { "p1": 7, "p2": 8, "scoreP1": 6, "scoreP2": 0 },
-                { "p1": 12, "p2": 6, "scoreP1": 7, "scoreP2": 4 },
-                { "p1": 5, "p2": 1, "scoreP1": "", "scoreP2": "" },
-                { "p1": 4, "p2": 2, "scoreP1": 1, "scoreP2": 9 },
-                { "p1": 3, "p2": 9, "scoreP1": 7, "scoreP2": 4 }
-            ]
-        }, {
-            "round": 2,
-            "soulstones": 50,
-            "specialrules": "None",
-            "schemes": [
-                19, 9, 13, 17, 16
-            ],
-            "games": [
-                { "p1": 3, "p2": 5, "scoreP1": "", "scoreP2": "" },
-                { "p1": 2, "p2": 7, "scoreP1": 9, "scoreP2": 7 },
-                { "p1": 10, "p2": 12, "scoreP1": "", "scoreP2": "" },
-                { "p1": 8, "p2": 11, "scoreP1": 9, "scoreP2": 2 },
-                { "p1": 1, "p2": 4, "scoreP1": 3, "scoreP2": 10 },
-                { "p1": 9, "p2": 6, "scoreP1": 8, "scoreP2": 3 }
-            ]
-        }, {
-            "round": 3,
-            "soulstones": 50,
-            "specialrules": "None",
-            "schemes": [
-                14, 8, 13, 11, 16
-            ],
-            "games": [
-                { "p1": 9, "p2": 12, "scoreP1": 1, "scoreP2": 7 },
-                { "p1": 1, "p2": 8, "scoreP1": "", "scoreP2": "" },
-                { "p1": 10, "p2": 7, "scoreP1": "", "scoreP2": "" },
-                { "p1": 4, "p2": 3, "scoreP1": "", "scoreP2": "" },
-                { "p1": 6, "p2": 2, "scoreP1": 2, "scoreP2": 10 },
-                { "p1": 5, "p2": 11, "scoreP1": "", "scoreP2": "" }
-            ]
-        }]
-    }]
+            "name": "September - One Master To Rule Them All",
+            "strategy": 4,
+            "deployment": "Corner",
+            "pairings": [{
+                "round": 1,
+                "soulstones": 35,
+                "specialrules": "Limited to a crew box",
+                "schemes": [
+                    12, 3, 7, 15, 17
+                ],
+                "games": [
+                    { "p1": 10, "p2": 11, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 7, "p2": 8, "scoreP1": 6, "scoreP2": 0 },
+                    { "p1": 12, "p2": 6, "scoreP1": 7, "scoreP2": 4 },
+                    { "p1": 5, "p2": 1, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 4, "p2": 2, "scoreP1": 1, "scoreP2": 9 },
+                    { "p1": 3, "p2": 9, "scoreP1": 7, "scoreP2": 4 }
+                ]
+            }, {
+                "round": 2,
+                "soulstones": 50,
+                "specialrules": "None",
+                "schemes": [
+                    19, 9, 13, 17, 16
+                ],
+                "games": [
+                    { "p1": 3, "p2": 5, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 2, "p2": 7, "scoreP1": 9, "scoreP2": 7 },
+                    { "p1": 10, "p2": 12, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 8, "p2": 11, "scoreP1": 9, "scoreP2": 2 },
+                    { "p1": 1, "p2": 4, "scoreP1": 3, "scoreP2": 10 },
+                    { "p1": 9, "p2": 6, "scoreP1": 8, "scoreP2": 3 }
+                ]
+            }, {
+                "round": 3,
+                "soulstones": 50,
+                "specialrules": "None",
+                "schemes": [
+                    14, 8, 13, 11, 16
+                ],
+                "games": [
+                    { "p1": 9, "p2": 12, "scoreP1": 1, "scoreP2": 7 },
+                    { "p1": 1, "p2": 8, "scoreP1": 1, "scoreP2": 9 },
+                    { "p1": 10, "p2": 7, "scoreP1": 0, "scoreP2": 7 },
+                    { "p1": 4, "p2": 3, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 6, "p2": 2, "scoreP1": 2, "scoreP2": 10 },
+                    { "p1": 5, "p2": 11, "scoreP1": 7, "scoreP2": 7 }
+                ]
+            }]
+        },
+        {
+            "name": "October - Spooky Scary",
+            "strategy": 5,
+            "deployment": "Standard",
+            "pairings": [{
+                "round": 1,
+                "soulstones": 50,
+                "specialrules": "None",
+                "schemes": [
+                    12, 10, 14, 18, 15
+                ],
+                "games": [
+                    { "p1": 1, "p2": 3, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 2, "p2": 8, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 6, "p2": 10, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 11, "p2": 7, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 5, "p2": 9, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 4, "p2": 12, "scoreP1": "", "scoreP2": "" }
+                ]
+            }, {
+                "round": 2,
+                "soulstones": 50,
+                "specialrules": "None",
+                "schemes": [
+                    10, 6, 13, 11, 1
+                ],
+                "games": [
+                    { "p1": 1, "p2": 10, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 12, "p2": 7, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 3, "p2": 6, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 9, "p2": 4, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 5, "p2": 8, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 2, "p2": 11, "scoreP1": "", "scoreP2": "" }
+                ]
+            }, {
+                "round": 3,
+                "soulstones": 50,
+                "specialrules": "None",
+                "schemes": [
+                    14, 18, 17, 2, 16
+                ],
+                "games": [
+                    { "p1": 5, "p2": 10, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 1, "p2": 6, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 3, "p2": 2, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 8, "p2": 9, "scoreP1": 7, "scoreP2": 3 },
+                    { "p1": 7, "p2": 4, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 12, "p2": 11, "scoreP1": "", "scoreP2": "" }
+                ]
+            }]
+        }
+    ]
 }
