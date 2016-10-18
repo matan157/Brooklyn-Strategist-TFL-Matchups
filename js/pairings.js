@@ -62,7 +62,7 @@
             $('button').trigger('blur');
         };
 
-        $scope.tab = 1;
+        $scope.tab = 2;
 
         $scope.setTab = function(n) {
             $scope.tab = n;
