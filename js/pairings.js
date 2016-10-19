@@ -62,7 +62,9 @@
             $('button').trigger('blur');
         };
 
-        $scope.tab = 2;
+        var month = new Date().getMonth() + 1;
+
+        $scope.tab = month - 8;
 
         $scope.setTab = function(n) {
             $scope.tab = n;
