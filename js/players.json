@@ -96,7 +96,7 @@
                     { "p1": 3, "p2": 6, "scoreP1": "", "scoreP2": "" },
                     { "p1": 9, "p2": 4, "scoreP1": 5, "scoreP2": 4 },
                     { "p1": 5, "p2": 8, "scoreP1": "", "scoreP2": "" },
-                    { "p1": 2, "p2": 11, "scoreP1": "", "scoreP2": "" }
+                    { "p1": 2, "p2": 11, "scoreP1": 5, "scoreP2": 7 }
                 ]
             }, {
                 "round": 3,
