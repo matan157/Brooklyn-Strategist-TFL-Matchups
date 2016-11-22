@@ -6,7 +6,7 @@
         { "name": "Andrew Gould", "email": "direwolfx@gmail.com", "id": 4, "wins": 0 },
         { "name": "Gaetano Musarella", "email": "Musarella626@yahoo.com", "id": 5, "wins": 0 },
         { "name": "Paris Nicholls", "email": "Paris.Nicholls@gmail.com", "id": 6, "wins": 0 },
-        { "name": "Etienne Vinete", "email": "Pumpwolf@gmail.com", "id": 7, "wins": 0 },
+        { "name": "Etienne Venet", "email": "Pumpwolf@gmail.com", "id": 7, "wins": 0 },
         { "name": "Damian Jhagroo", "email": "Djhagroo@yahoo.com", "id": 8, "wins": 0 },
         { "name": "Joaquin Quintana", "email": "Yojimbo517@gmail.com", "id": 9, "wins": 0 },
         { "name": "George Zabetakis", "email": "dudesurfs@gmail.com", "id": 10, "wins": 0 },
@@ -92,7 +92,7 @@
                 ],
                 "games": [
                     { "p1": 1, "p2": 10, "scoreP1": 5, "scoreP2": 8 },
-                    { "p1": 12, "p2": 7, "scoreP1": 6, "scoreP2": 2 },
+                    { "p1": 12, "p2": 7, "scoreP1": 6, "scoreP2": 3 },
                     { "p1": 3, "p2": 6, "scoreP1": "", "scoreP2": "" },
                     { "p1": 9, "p2": 4, "scoreP1": 5, "scoreP2": 4 },
                     { "p1": 5, "p2": 8, "scoreP1": "", "scoreP2": "" },
@@ -141,7 +141,7 @@
                     18, 15, 14, 4, 6
                 ],
                 "games": [
-                    { "p1": 2, "p2": 9, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 2, "p2": 9, "scoreP1": 9, "scoreP2": 7 },
                     { "p1": 12, "p2": 1, "scoreP1": "", "scoreP2": "" },
                     { "p1": 3, "p2": 7, "scoreP1": "", "scoreP2": "" },
                     { "p1": 10, "p2": 9, "scoreP1": "", "scoreP2": "" },
@@ -156,7 +156,7 @@
                     18, 19, 17, 16, 8
                 ],
                 "games": [
-                    { "p1": 2, "p2": 7, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 2, "p2": 7, "scoreP1": 8, "scoreP2": 2 },
                     { "p1": 9, "p2": 4, "scoreP1": "", "scoreP2": "" },
                     { "p1": 11, "p2": 5, "scoreP1": "", "scoreP2": "" },
                     { "p1": 1, "p2": 3, "scoreP1": "", "scoreP2": "" },
