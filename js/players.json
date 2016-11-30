@@ -1,15 +1,15 @@
 {
     "players": [
         { "name": "Matan Uchen", "email": "matan.uchen@gmail.com", "id": 1, "wins": 2 },
-        { "name": "Davie Lustig", "email": "Wargaming@thebrooklynstrategist.com", "id": 2, "wins": 7 },
-        { "name": "Robert \"Robe4\" Dente", "email": "Robert.Dente9@gmail.com", "id": 3, "wins": 5 },
-        { "name": "Andrew Gould", "email": "direwolfx@gmail.com", "id": 4, "wins": 2 },
+        { "name": "Davie Lustig", "email": "Wargaming@thebrooklynstrategist.com", "id": 2, "wins": 8 },
+        { "name": "Robert \"Robe4\" Dente", "email": "Robert.Dente9@gmail.com", "id": 3, "wins": 6 },
+        { "name": "Andrew Gould", "email": "direwolfx@gmail.com", "id": 4, "wins": 3 },
         { "name": "Gaetano Musarella", "email": "Musarella626@yahoo.com", "id": 5, "wins": 0 },
         { "name": "Paris Nicholls", "email": "Paris.Nicholls@gmail.com", "id": 6, "wins": 0 },
-        { "name": "Etienne Venet", "email": "Pumpwolf@gmail.com", "id": 7, "wins": 5 },
+        { "name": "Etienne Venet", "email": "Pumpwolf@gmail.com", "id": 7, "wins": 6 },
         { "name": "Damian Jhagroo", "email": "Djhagroo@yahoo.com", "id": 8, "wins": 5 },
         { "name": "Joaquin Quintana", "email": "Yojimbo517@gmail.com", "id": 9, "wins": 4 },
-        { "name": "George Zabetakis", "email": "dudesurfs@gmail.com", "id": 10, "wins": 4 },
+        { "name": "George Zabetakis", "email": "dudesurfs@gmail.com", "id": 10, "wins": 1 },
         { "name": "Will Stack", "email": "willstacknyc@gmail.com", "id": 11, "wins": 4 },
         { "name": "Rory Dolan", "email": "Rorymdolan@gmail.com", "id": 12, "wins": 7 }
     ],
