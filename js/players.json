@@ -1,17 +1,17 @@
 {
     "players": [
-        { "name": "Matan Uchen", "email": "matan.uchen@gmail.com", "id": 1, "wins": 0 },
-        { "name": "Davie Lustig", "email": "Wargaming@thebrooklynstrategist.com", "id": 2, "wins": 0 },
-        { "name": "Robert \"Robe4\" Dente", "email": "Robert.Dente9@gmail.com", "id": 3, "wins": 0 },
-        { "name": "Andrew Gould", "email": "direwolfx@gmail.com", "id": 4, "wins": 0 },
+        { "name": "Matan Uchen", "email": "matan.uchen@gmail.com", "id": 1, "wins": 7 },
+        { "name": "Davie Lustig", "email": "Wargaming@thebrooklynstrategist.com", "id": 2, "wins": 7 },
+        { "name": "Robert \"Robe4\" Dente", "email": "Robert.Dente9@gmail.com", "id": 3, "wins": 5 },
+        { "name": "Andrew Gould", "email": "direwolfx@gmail.com", "id": 4, "wins": 2 },
         { "name": "Gaetano Musarella", "email": "Musarella626@yahoo.com", "id": 5, "wins": 0 },
         { "name": "Paris Nicholls", "email": "Paris.Nicholls@gmail.com", "id": 6, "wins": 0 },
-        { "name": "Etienne Venet", "email": "Pumpwolf@gmail.com", "id": 7, "wins": 0 },
-        { "name": "Damian Jhagroo", "email": "Djhagroo@yahoo.com", "id": 8, "wins": 0 },
-        { "name": "Joaquin Quintana", "email": "Yojimbo517@gmail.com", "id": 9, "wins": 0 },
-        { "name": "George Zabetakis", "email": "dudesurfs@gmail.com", "id": 10, "wins": 0 },
-        { "name": "Will Stack", "email": "willstacknyc@gmail.com", "id": 11, "wins": 0 },
-        { "name": "Rory Dolan", "email": "Rorymdolan@gmail.com", "id": 12, "wins": 0 }
+        { "name": "Etienne Venet", "email": "Pumpwolf@gmail.com", "id": 7, "wins": 5 },
+        { "name": "Damian Jhagroo", "email": "Djhagroo@yahoo.com", "id": 8, "wins": 5 },
+        { "name": "Joaquin Quintana", "email": "Yojimbo517@gmail.com", "id": 9, "wins": 4 },
+        { "name": "George Zabetakis", "email": "dudesurfs@gmail.com", "id": 10, "wins": 4 },
+        { "name": "Will Stack", "email": "willstacknyc@gmail.com", "id": 11, "wins": 4 },
+        { "name": "Rory Dolan", "email": "Rorymdolan@gmail.com", "id": 12, "wins": 7 }
     ],
     "months": [{
             "name": "September - One Master To Rule Them All",
@@ -93,7 +93,7 @@
                 "games": [
                     { "p1": 1, "p2": 10, "scoreP1": 5, "scoreP2": 8 },
                     { "p1": 12, "p2": 7, "scoreP1": 6, "scoreP2": 3 },
-                    { "p1": 3, "p2": 6, "scoreP1": 0, "scoreP2": 6 },
+                    { "p1": 3, "p2": 6, "scoreP1": 6, "scoreP2": 0 },
                     { "p1": 9, "p2": 4, "scoreP1": 5, "scoreP2": 4 },
                     { "p1": 5, "p2": 8, "scoreP1": 0, "scoreP2": 6 },
                     { "p1": 2, "p2": 11, "scoreP1": 5, "scoreP2": 7 }
@@ -107,7 +107,7 @@
                 ],
                 "games": [
                     { "p1": 5, "p2": 10, "scoreP1": 0, "scoreP2": 6 },
-                    { "p1": 1, "p2": 6, "scoreP1": 0, "scoreP2": 6 },
+                    { "p1": 1, "p2": 6, "scoreP1": 6, "scoreP2": 0 },
                     { "p1": 3, "p2": 2, "scoreP1": "", "scoreP2": "" },
                     { "p1": 8, "p2": 9, "scoreP1": 7, "scoreP2": 3 },
                     { "p1": 7, "p2": 4, "scoreP1": 9, "scoreP2": 4 },
@@ -144,7 +144,7 @@
                     { "p1": 2, "p2": 9, "scoreP1": 9, "scoreP2": 7 },
                     { "p1": 12, "p2": 1, "scoreP1": 6, "scoreP2": 0 },
                     { "p1": 3, "p2": 7, "scoreP1": "", "scoreP2": "" },
-                    { "p1": 10, "p2": 9, "scoreP1": "", "scoreP2": "" },
+                    { "p1": 10, "p2": 8, "scoreP1": "", "scoreP2": "" },
                     { "p1": 6, "p2": 5, "scoreP1": 0, "scoreP2": 0 },
                     { "p1": 11, "p2": 4, "scoreP1": "", "scoreP2": "" }
                 ]
